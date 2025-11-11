@@ -1,0 +1,30 @@
+{
+  "name": "cocktail-assistant",
+  "version": "1.0.0",
+  "description": "Just a simple pionjs application that helps you make cocktails.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --node-resolve --watch --open",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionutcirja/cocktail-assistant.git"
+  },
+  "author": "Ionut Cirja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ionutcirja/cocktail-assistant/issues"
+  },
+  "homepage": "https://github.com/ionutcirja/cocktail-assistant#readme",
+  "dependencies": {
+    "@pionjs/pion": "^2.8.3",
+    "lit-html": "^3.3.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^2.1.0",
+    "ts-lit-plugin": "^2.0.2",
+    "typescript": "^5.9.3"
+  }
+}
